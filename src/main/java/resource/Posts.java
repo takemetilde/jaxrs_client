@@ -10,6 +10,11 @@ public class Posts {
     private String title;
     private String body;
 
+    //Necessary to Deserialize
+    public Posts() {
+
+    }
+
     public Posts(int userId, int id, String title, String body) {
         this.userId = userId;
         this.id = id;

@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: JerseyClientLiveTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.303 sec <<< FAILURE!
-givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated(JerseyClientLiveTest)  Time elapsed: 0.01 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at restclient.RestClient.createJsonPosts(RestClient.java:39)
-	at JerseyClientLiveTest.givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated(JerseyClientLiveTest.java:20)
-
-receiveCorrectResponseTest(JerseyClientLiveTest)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at restclient.RestClient.getPostsJson(RestClient.java:46)
-	at JerseyClientLiveTest.receiveCorrectResponseTest(JerseyClientLiveTest.java:32)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.51 sec

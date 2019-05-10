@@ -1,22 +1,26 @@
 package resource;
 
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.ArrayList;
+import java.util.List;
 
 @XmlRootElement
 public class PostsList {
 
-    private ArrayList<Posts> postsArrayList;
+    public PostsList() {
 
-    public ArrayList<Posts> getPostsArrayList() {
-        return postsArrayList;
+    }
+
+    private List<Posts> postsList;
+
+    public List<Posts> getPostsList() {
+        return postsList;
     }
 
     @Override
     public String toString() {
         String results = "";
 
-        for(Posts posts: postsArrayList)
+        for(Posts posts: postsList)
             results.concat(posts.toString());
 
         return "PostsList{" + results + "}";

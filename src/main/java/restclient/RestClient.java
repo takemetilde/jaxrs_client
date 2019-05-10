@@ -1,6 +1,5 @@
 package restclient;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
 import resource.Posts;
 import resource.PostsList;
 
@@ -13,18 +12,18 @@ public class RestClient {
     private static final String REST_URI
             = "https://jsonplaceholder.typicode.com/posts/";
 
-    private Client client;
-    private WebTarget webTarget;
-    private Invocation.Builder builder;
+    private Client client = ClientBuilder.newClient();
+//    private WebTarget webTarget;
+//    private Invocation.Builder builder;
 
-    private void setBasicAuthentication() {
-
-    }
-
-    private WebTarget provisionRestClient() {
-        client = ClientBuilder.newClient();
-        return webTarget = client.target(REST_URI);
-    }
+//    private void setBasicAuthentication() {
+//
+//    }
+//
+//    private WebTarget provisionRestClient() {
+//        client = ClientBuilder.newClient();
+//        return webTarget = client.target(REST_URI);
+//    }
 
     public Posts getPostsEntity(int id) {
         return client

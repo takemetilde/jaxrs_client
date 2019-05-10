@@ -39,14 +39,8 @@ public class JerseyClientLiveTest {
 
     //TODO: This failed
 //    @Test
-//    public void testMultiplePosts() {
-//        PostsList entityPostsListResponse = client.getPostsListEntity();
-//        System.out.println("\nPostsList:\n" + entityPostsListResponse);
-//    }
-
-    @Test
-    public void testInvocationBuilderWithEntityAnnotations() {
-        Invocation.Builder builder = "";
-        Posts entityResponse = builder.get(Posts.class);
+    public void testMultiplePosts() {
+        PostsList entityPostsListResponse = client.getPostsListEntity();
+        System.out.println("\nPostsList:\n" + entityPostsListResponse);
     }
 }

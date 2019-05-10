@@ -6,7 +6,6 @@
       <class name="JerseyClientLiveTest">
         <methods>
           <include name="receiveCorrectResponseTest"/>
-          <include name="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated"/>
         </methods>
       </class> <!-- JerseyClientLiveTest -->
     </classes>
