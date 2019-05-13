@@ -1,10 +1,10 @@
 import org.testng.annotations.Test;
 import resource.Posts;
-import resource.PostsList;
 import restclient.RestClient;
 
-import javax.ws.rs.client.Invocation;
 import javax.ws.rs.core.Response;
+
+import java.util.List;
 
 import static org.testng.Assert.assertEquals;
 
@@ -38,9 +38,11 @@ public class JerseyClientLiveTest {
     }
 
     //TODO: This failed
-//    @Test
+    @Test
     public void testMultiplePosts() {
-        PostsList entityPostsListResponse = client.getPostsListEntity();
-        System.out.println("\nPostsList:\n" + entityPostsListResponse);
+
+        List<Posts> postsListResponse = client.getPostsListJson();
+
+        System.out.println("--------XXXXXXXX---------------" + postsListResponse.get(1).getBody());
     }
 }

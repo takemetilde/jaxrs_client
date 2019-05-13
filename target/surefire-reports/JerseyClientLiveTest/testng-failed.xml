@@ -5,7 +5,7 @@
     <classes>
       <class name="JerseyClientLiveTest">
         <methods>
-          <include name="receiveCorrectResponseTest"/>
+          <include name="testMultiplePosts"/>
         </methods>
       </class> <!-- JerseyClientLiveTest -->
     </classes>

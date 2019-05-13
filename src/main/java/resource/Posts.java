@@ -1,8 +1,5 @@
 package resource;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement
 public class Posts {
 
     private int userId;
@@ -10,7 +7,9 @@ public class Posts {
     private String title;
     private String body;
 
-    //Necessary to Deserialize
+    /**
+     * Default Constructor Required for Deserialization
+     */
     public Posts() {
 
     }

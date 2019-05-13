@@ -1,11 +1,12 @@
 package restclient;
 
 import resource.Posts;
-import resource.PostsList;
 
 import javax.ws.rs.client.*;
+import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.List;
 
 public class RestClient {
 
@@ -33,6 +34,13 @@ public class RestClient {
                 .get(Posts.class);
     }
 
+    public Posts getPostsEntity() {
+        return client
+                .target(REST_URI)
+                .request(MediaType.APPLICATION_JSON)
+                .get(Posts.class);
+    }
+
     public Response createJsonPosts(Posts posts) {
         return client
                 .target(REST_URI)
@@ -48,10 +56,17 @@ public class RestClient {
                 .get();
     }
 
-    public PostsList getPostsListEntity() {
+    public List<Posts> getPostsListJson() {
         return client
                 .target(REST_URI)
                 .request(MediaType.APPLICATION_JSON)
-                .get(PostsList.class);
+                .get(new GenericType<List<Posts>>(){});
+    }
+
+    public Response getPostsListEntity() {
+        return client
+                .target(REST_URI)
+                .request(MediaType.APPLICATION_JSON)
+                .get();
     }
 }
