@@ -1,4 +1,5 @@
 import org.testng.annotations.Test;
+import resource.PostLists;
 import resource.Posts;
 import restclient.RestClient;
 
@@ -43,6 +44,9 @@ public class JerseyClientLiveTest {
 
         List<Posts> postsListResponse = client.getPostsListJson();
 
+        PostLists postLists = new PostLists(client.getPostsListJson());
+
         System.out.println("--------XXXXXXXX---------------" + postsListResponse.get(1).getBody());
+        System.out.println("----------------OOOOOOOOO------" + postLists.getPostsList().get(1).getTitle());
     }
 }
