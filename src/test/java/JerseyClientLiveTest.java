@@ -42,11 +42,7 @@ public class JerseyClientLiveTest {
     @Test
     public void testMultiplePosts() {
 
-        List<Posts> postsListResponse = client.getPostsListJson();
-
-        PostLists postLists = new PostLists(client.getPostsListJson());
-
-        System.out.println("--------XXXXXXXX---------------" + postsListResponse.get(1).getBody());
-        System.out.println("----------------OOOOOOOOO------" + postLists.getPostsList().get(1).getTitle());
+        PostLists postsListResponse = client.getPostsListEntity();
+        System.out.println("----------------OOOOOOOOO------" + postsListResponse.getPostsList().get(1).getTitle());
     }
 }

@@ -1,5 +1,6 @@
 package restclient;
 
+import resource.PostLists;
 import resource.Posts;
 
 import javax.ws.rs.client.*;
@@ -34,12 +35,12 @@ public class RestClient {
                 .get(Posts.class);
     }
 
-    public Posts getPostsEntity() {
-        return client
-                .target(REST_URI)
-                .request(MediaType.APPLICATION_JSON)
-                .get(Posts.class);
-    }
+//    public Posts getPostsEntity() {
+//        return client
+//                .target(REST_URI)
+//                .request(MediaType.APPLICATION_JSON)
+//                .get(Posts.class);
+//    }
 
     public Response createJsonPosts(Posts posts) {
         return client
@@ -56,6 +57,13 @@ public class RestClient {
                 .get();
     }
 
+    public Response getAllPostsJson() {
+        return client
+                .target(REST_URI)
+                .request(MediaType.APPLICATION_JSON)
+                .get();
+    }
+
     public List<Posts> getPostsListJson() {
         return client
                 .target(REST_URI)
@@ -63,10 +71,8 @@ public class RestClient {
                 .get(new GenericType<List<Posts>>(){});
     }
 
-    public Response getPostsListEntity() {
-        return client
-                .target(REST_URI)
-                .request(MediaType.APPLICATION_JSON)
-                .get();
+    public PostLists getPostsListEntity() {
+        PostLists postLists = new PostLists(getPostsListJson());
+        return postLists;
     }
 }
