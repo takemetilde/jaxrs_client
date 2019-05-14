@@ -5,8 +5,6 @@ import restclient.RestClient;
 
 import javax.ws.rs.core.Response;
 
-import java.util.List;
-
 import static org.testng.Assert.assertEquals;
 
 public class JerseyClientLiveTest {
@@ -38,7 +36,6 @@ public class JerseyClientLiveTest {
 
     }
 
-    //TODO: This failed
     @Test
     public void testMultiplePosts() {
 

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="JerseyClientLiveTest" duration-ms="2086" started-at="2019-05-13T20:14:42Z" finished-at="2019-05-13T20:14:44Z">
+  <suite name="JerseyClientLiveTest" duration-ms="2066" started-at="2019-05-13T23:15:42Z" finished-at="2019-05-13T23:15:44Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2086" started-at="2019-05-13T20:14:42Z" finished-at="2019-05-13T20:14:44Z">
+    <test name="Command line test" duration-ms="2066" started-at="2019-05-13T23:15:42Z" finished-at="2019-05-13T23:15:44Z">
       <class name="JerseyClientLiveTest">
-        <test-method status="PASS" signature="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated" duration-ms="1767" started-at="2019-05-13T16:14:42Z" finished-at="2019-05-13T16:14:44Z">
+        <test-method status="PASS" signature="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated" duration-ms="1883" started-at="2019-05-13T19:15:42Z" finished-at="2019-05-13T19:15:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated -->
-        <test-method status="PASS" signature="receiveCorrectResponseTest()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="receiveCorrectResponseTest" duration-ms="87" started-at="2019-05-13T16:14:44Z" finished-at="2019-05-13T16:14:44Z">
+        <test-method status="PASS" signature="receiveCorrectResponseTest()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="receiveCorrectResponseTest" duration-ms="88" started-at="2019-05-13T19:15:44Z" finished-at="2019-05-13T19:15:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- receiveCorrectResponseTest -->
-        <test-method status="PASS" signature="testMultiplePosts()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="testMultiplePosts" duration-ms="210" started-at="2019-05-13T16:14:44Z" finished-at="2019-05-13T16:14:44Z">
+        <test-method status="PASS" signature="testMultiplePosts()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="testMultiplePosts" duration-ms="72" started-at="2019-05-13T19:15:44Z" finished-at="2019-05-13T19:15:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplePosts -->
