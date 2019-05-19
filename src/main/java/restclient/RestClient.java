@@ -7,7 +7,9 @@ import javax.ws.rs.client.*;
 import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.io.FileInputStream;
 import java.util.List;
+import java.util.Properties;
 
 public class RestClient {
 
@@ -26,6 +28,7 @@ public class RestClient {
 //        client = ClientBuilder.newClient();
 //        return webTarget = client.target(REST_URI);
 //    }
+
 
     public Posts getPostsEntity(int id) {
         return client
