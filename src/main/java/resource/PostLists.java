@@ -1,5 +1,7 @@
 package resource;
 
+import javafx.geometry.Pos;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +18,10 @@ public class PostLists {
 
     public List<Posts> getPostsList() {
         return postsList;
+    }
+
+    public Posts getPostsListIndex(int index) {
+        return postsList.get(index);
     }
 
     @Override
