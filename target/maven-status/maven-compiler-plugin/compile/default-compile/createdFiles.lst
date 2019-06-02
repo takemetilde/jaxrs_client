@@ -1,6 +1,0 @@
-restclient/RestClient.class
-restclient/RestClient$1.class
-auth/BasicAuthentication.class
-resource/Posts.class
-auth/Authentication.class
-resource/PostLists.class
