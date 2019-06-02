@@ -6,7 +6,7 @@ Documentation
 
 ***Variables***
 ${Browser}  Chrome
-${URL}  http://acb/application/login.com
+${URL}  http://www.google.com
 
 
 *** Test Cases ***

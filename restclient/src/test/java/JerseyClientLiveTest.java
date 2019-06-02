@@ -38,7 +38,6 @@ public class JerseyClientLiveTest {
 
     @Test
     public void testMultiplePosts() {
-
         PostLists postsListResponse = client.getPostsListEntity();
         System.out.println("----------------OOOOOOOOO------" + postsListResponse.getPostsList().get(1).getTitle());
     }

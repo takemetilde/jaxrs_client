@@ -2,105 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d76b2a-1d6e-470c-9c7e-d893e7296a72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/classes/jsonconsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/classes/pojogen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/classes/schema/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/generated-sources/jsonschema2pojo/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/jsonschema2pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/classes/auth/Authentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/classes/auth/BasicAuthentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/classes/resource/PostLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/classes/resource/Posts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/classes/restclient/RestClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/classes/restclient/RestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/JerseyClientLiveTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/JerseyClientLiveTest/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/JerseyClientLiveTest/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/TEST-JerseyClientLiveTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/junitreports/TEST-JerseyClientLiveTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/Command line test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/JerseyClientLiveTest/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restclient/target/test-classes/JerseyClientLiveTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restclient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robotframework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/robotframework-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/robotframework-reports/TEST-robot.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/robotframework-reports/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/robotframework-reports/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/robotframework-reports/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JerseyClientLiveTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JerseyClientLiveTest/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JerseyClientLiveTest/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JerseyClientLiveTest/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JerseyClientLiveTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-JerseyClientLiveTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/Command line test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/JerseyClientLiveTest/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JerseyClientLiveTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -130,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robotframework/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -139,17 +48,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restclient/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="38">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsonschema2pojo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-429">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/markusbernhardt/robotframework-selenium2library-java/1.4.0.8/robotframework-selenium2library-java-1.4.0.8.jar!/com/github/markusbernhardt/selenium2library/keywords/FormElement.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="377" column="16" selection-start-line="377" selection-start-column="16" selection-end-line="377" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -186,11 +135,15 @@
         <option value="$PROJECT_DIR$/src/main/java/restclient/RestClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/JerseyClientLiveTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/robot/test.robot" />
-        <option value="$PROJECT_DIR$/restclient/pom.xml" />
-        <option value="$PROJECT_DIR$/jsonschema2pojo/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/robotframework/pom.xml" />
+        <option value="$PROJECT_DIR$/jsonschema2pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java" />
+        <option value="$PROJECT_DIR$/restclient/pom.xml" />
+        <option value="$PROJECT_DIR$/robotframework/pom.xml" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java" />
       </list>
     </option>
   </component>
@@ -219,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,10 +179,97 @@
               <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
               <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="restclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="restclient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="restclient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="restclient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="robot" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +342,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.JerseyClientLiveTest.receiveCorrectResponseTest" />
-        <item itemvalue="TestNG.JerseyClientLiveTest.testMultiplePosts (1)" />
         <item itemvalue="TestNG.JerseyClientLiveTest.testMultiplePosts" />
       </list>
     </recent_temporary>
@@ -337,7 +374,7 @@
     <frame x="83" y="25" width="1837" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19753778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19977616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +388,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.44891304" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28913045" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32826087" />
@@ -430,9 +467,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/resource/PostsList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/resource/Employee.java" />
     <entry file="file://$PROJECT_DIR$/jsonschema2pojo/jsonschema2pojo.iml" />
-    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/target/classes/schema/test.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/target/classes/schema/test.json" />
     <entry file="file://$PROJECT_DIR$/target/classes/resource/PostLists.class" />
     <entry file="file://$PROJECT_DIR$/restclient/src/main/java/resource/Posts.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -477,56 +512,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/robot/test/robot.java" />
+    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="920">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/robot/test/robot.java" />
-    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/markusbernhardt/robotframework-selenium2library-java/1.4.0.8/robotframework-selenium2library-java-1.4.0.8.jar!/com/github/markusbernhardt/selenium2library/keywords/BrowserManagement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="3320">
+          <caret line="226" column="33" lean-forward="true" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11-sources.jar!/org/testng/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="396" column="21" selection-start-line="396" selection-start-column="21" selection-end-line="396" selection-end-column="21" />
+          <folding>
+            <element signature="e#13366#13367#0" expanded="true" />
+            <element signature="e#13412#13413#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/markusbernhardt/robotframework-selenium2library-java/1.4.0.8/robotframework-selenium2library-java-1.4.0.8.jar!/com/github/markusbernhardt/selenium2library/keywords/FormElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="20">
+          <caret line="377" column="16" selection-start-line="377" selection-start-column="16" selection-end-line="377" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/restclient/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="38">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

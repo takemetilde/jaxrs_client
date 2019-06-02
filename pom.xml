@@ -14,4 +14,12 @@
         <module>robotframework</module>
         <module>restclient</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.11</version>
+        </dependency>
+    </dependencies>
 </project>
