@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jsonschema2pojo" />
+        <module name="robotframework" />
+        <module name="restclient" />
       </profile>
     </annotationProcessing>
   </component>

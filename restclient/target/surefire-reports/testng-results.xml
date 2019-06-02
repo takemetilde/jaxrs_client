@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JerseyClientLiveTest" duration-ms="1212" started-at="2019-06-02T01:48:42Z" finished-at="2019-06-02T01:48:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1212" started-at="2019-06-02T01:48:42Z" finished-at="2019-06-02T01:48:43Z">
+      <class name="JerseyClientLiveTest">
+        <test-method status="PASS" signature="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated" duration-ms="1058" started-at="2019-06-01T21:48:42Z" finished-at="2019-06-01T21:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated -->
+        <test-method status="PASS" signature="receiveCorrectResponseTest()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="receiveCorrectResponseTest" duration-ms="83" started-at="2019-06-01T21:48:43Z" finished-at="2019-06-01T21:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveCorrectResponseTest -->
+        <test-method status="PASS" signature="testMultiplePosts()[pri:0, instance:JerseyClientLiveTest@5e5792a0]" name="testMultiplePosts" duration-ms="55" started-at="2019-06-01T21:48:43Z" finished-at="2019-06-01T21:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplePosts -->
+      </class> <!-- JerseyClientLiveTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- JerseyClientLiveTest -->
+</testng-results>
