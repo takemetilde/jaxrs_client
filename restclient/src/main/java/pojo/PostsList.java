@@ -1,16 +1,16 @@
-package resource;
+package pojo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PostLists {
+public class PostsList {
 
     List<Posts> postsList = new ArrayList<Posts>();
 
-    public PostLists() {
+    public PostsList() {
     }
 
-    public PostLists(List<Posts> postsList) {
+    public PostsList(List<Posts> postsList) {
         this.postsList = postsList;
     }
 
@@ -20,7 +20,7 @@ public class PostLists {
 
     @Override
     public String toString() {
-        return "PostLists{" +
+        return "PostsList{" +
                 "postsList=" + postsList +
                 '}';
     }

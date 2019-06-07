@@ -3,12 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="28d76b2a-1d6e-470c-9c7e-d893e7296a72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jsonschema2pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/src/main/java/jsonconsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/src/main/java/pojogen.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsonschema2pojo/src/main/java/pojogen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/jsonschema2pojo/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/classes/pojogen.class" beforeDir="false" afterPath="$PROJECT_DIR$/jsonschema2pojo/target/classes/pojogen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/generated-sources/jsonschema2pojo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsonschema2pojo/target/generated-sources/jsonschema2pojo/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/jsonschema2pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonschema2pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jsonschema2pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restclient/src/main/java/resource/PostLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/restclient/src/main/java/pojo/PostsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restclient/src/main/java/resource/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/restclient/src/main/java/pojo/Posts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restclient/src/main/java/restclient/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/restclient/src/main/java/restclient/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robotframework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,10 +36,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsonschema2pojo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robotframework/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+            <state relative-caret-position="584">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -38,63 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restclient/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-349">
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
-                <element signature="e#1299#1300#0" expanded="true" />
-                <element signature="e#1592#1593#0" expanded="true" />
-                <element signature="e#1641#1642#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restclient/src/main/java/restclient/RestClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsonschema2pojo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="520">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -132,15 +95,18 @@
         <option value="$PROJECT_DIR$/src/test/java/JerseyClientLiveTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/robot/test.robot" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/restclient/pom.xml" />
-        <option value="$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java" />
-        <option value="$PROJECT_DIR$/robotframework/pom.xml" />
         <option value="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" />
         <option value="$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot" />
         <option value="$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jsonschema2pojo/src/main/java/pojogen.java" />
+        <option value="$PROJECT_DIR$/restclient/src/main/java/pojo/PostLists.java" />
+        <option value="$PROJECT_DIR$/restclient/src/main/java/pojo/PostsList.java" />
         <option value="$PROJECT_DIR$/restclient/src/main/java/restclient/RestClient.java" />
         <option value="$PROJECT_DIR$/jsonschema2pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java" />
+        <option value="$PROJECT_DIR$/robotframework/pom.xml" />
       </list>
     </option>
   </component>
@@ -158,10 +124,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1533" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,74 +136,23 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonschema2pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonschema2pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonschema2pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonschema2pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonschema2pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonschema2pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="schema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonschema2pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
-              <item name="jsonschema2pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="tdm_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdm_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,10 +254,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="83" y="25" width="1837" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21376608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +271,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36633664" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.49456522" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32826087" />
@@ -425,22 +340,10 @@
     <entry file="file://$PROJECT_DIR$/jsonschema2pojo/jsonschema2pojo.iml" />
     <entry file="file://$PROJECT_DIR$/jsonschema2pojo/target/classes/schema/test.json" />
     <entry file="file://$PROJECT_DIR$/target/classes/resource/PostLists.class" />
-    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/resource/Posts.java">
+    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/pojo/Posts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/resource/PostLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,20 +380,6 @@
         <state relative-caret-position="-960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/src/main/java/pojogen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsonschema2pojo/src/main/java/jsonconsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -505,67 +394,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restclient/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsonschema2pojo/src/main/resources/schema/test.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/restclient/RestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsonschema2pojo/target/classes/jsonconsumer.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -578,17 +420,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsonschema2pojo/target/classes/Test.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="200">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/target/generated-sources/jsonschema2pojo/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/src/main/java/pojogen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <element signature="e#0#4374#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/pojo/PostsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restclient/src/test/resources.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restclient/src/test/java/JerseyClientLiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/restclient/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsonschema2pojo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="580">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restclient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
         </state>
       </provider>
     </entry>

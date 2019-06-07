@@ -26,6 +26,7 @@
 
     <build>
         <plugins>
+<!--            https://joelittlejohn.github.io/jsonschema2pojo/site/1.0.1/generate-mojo.html-->
             <plugin>
                 <groupId>org.jsonschema2pojo</groupId>
                 <artifactId>jsonschema2pojo-maven-plugin</artifactId>
@@ -34,6 +35,8 @@
                     <sourcePaths>${basedir}/src/main/resources/schema/</sourcePaths>
                     <outputDirectory>${basedir}/target/generated-sources/jsonschema2pojo/</outputDirectory>
                     <sourceType>json</sourceType>
+<!--                    <skip>true</skip>-->
+                    <annotationStyle>none</annotationStyle>
                 </configuration>
                 <executions>
                     <execution>

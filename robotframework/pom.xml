@@ -53,6 +53,7 @@
                         </goals>
                     </execution>
                 </executions>
+<!--                https://joelittlejohn.github.io/jsonschema2pojo/site/1.0.1/generate-mojo.html-->
                 <configuration>
                     <testCasesDirectory>src/test/java/robot</testCasesDirectory>
                     <libdoc></libdoc>

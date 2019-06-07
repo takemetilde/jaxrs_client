@@ -1,7 +1,7 @@
 package restclient;
 
-import resource.PostLists;
-import resource.Posts;
+import pojo.PostsList;
+import pojo.Posts;
 
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.GenericType;
@@ -26,7 +26,7 @@ public class RestClient {
     private Client client = ClientBuilder.newClient();
 
     /**
-     * This method inputs the ID of the project and binds the JSON response from the target to the Posts.class POJO.
+     * This method is sends a GET request to the REST_URI with a specific ID.
      * @param id
      * @return Posts pojo class with the appropriate bindings.
      */
@@ -39,7 +39,7 @@ public class RestClient {
     }
 
     /**
-     * This method passes a Posts parameter to return a raw JSON Response.
+     * This method is sends a POST request to the REST_URI.
      * @param posts
      * @return Raw JSON
      */
@@ -51,9 +51,9 @@ public class RestClient {
     }
 
     /**
-     * The method passes an ID parameter to return a raw JSON Response.
+     * This method is sends a GET request to the REST_URI with a specific ID.
      * @param id
-     * @return
+     * @return Raw JSON
      */
     public Response getPostsJson(int id) {
         return client
@@ -64,8 +64,8 @@ public class RestClient {
     }
 
     /**
-     * The method returns a raw JSON Response
-     * @return
+     * This method is sends a GET request to get all in the REST_URI.
+     * @return Raw JSON
      */
     public Response getAllPostsJson() {
         return client
@@ -75,8 +75,8 @@ public class RestClient {
     }
 
     /**
-     *
-     * @return
+     * This method inputs the ID of the project and binds the JSON response from the target to the Posts.class POJO
+     * @return PostsList pojo class with the appropriate bindings.
      */
     public List<Posts> getPostsListJson() {
         return client
@@ -85,8 +85,9 @@ public class RestClient {
                 .get(new GenericType<List<Posts>>(){});
     }
 
-    public PostLists getPostsListEntity() {
-        PostLists postLists = new PostLists(getPostsListJson());
-        return postLists;
+
+    public PostsList getPostsListEntity() {
+        PostsList postsList = new PostsList(getPostsListJson());
+        return postsList;
     }
 }

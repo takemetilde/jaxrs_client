@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
-import resource.PostLists;
-import resource.Posts;
+import pojo.PostsList;
+import pojo.Posts;
 import restclient.RestClient;
 
 import javax.ws.rs.core.Response;
@@ -38,7 +38,7 @@ public class JerseyClientLiveTest {
 
     @Test
     public void testMultiplePosts() {
-        PostLists postsListResponse = client.getPostsListEntity();
+        PostsList postsListResponse = client.getPostsListEntity();
         System.out.println("----------------OOOOOOOOO------" + postsListResponse.getPostsList().get(1).getTitle());
     }
 }
