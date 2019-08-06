@@ -30,20 +30,20 @@ Validate that the Home Screen is displaying.
     #Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Home Screen - Validate that the Delta Logo is present.
-    [Documentation]                 Expected: The screen will display the Delta Logo.
+    [Documentation]                 The screen will display the Delta Logo.
     ...
     Validate that the Home Screen is displaying.
     #captureImage(res_id)           ${DELTA_LOGO}
 
 On the Home Screen - Validate that the seat has the appropriate Welcome message.
-    [Documentation]                 Expected: The seat has the appropriate Welcome message.
+    [Documentation]                 The seat has the appropriate Welcome message.
     ...
     [Arguments]                     ${ITU_SEAT_ID}
     Validate that the Home Screen is displaying.
     #ITUSpecificAction(seat, mess)
 
 On the Home Screen - Select the 'Browse Entertainment' button.
-    [Documentation]                 Expected: The screen continues to the Entertainment Spotlight Screen.
+    [Documentation]                 The screen continues to the Entertainment Spotlight Screen.
     ...
     #Add conditional to filter out elements by selected language
     Validate that the Home Screen is displaying.
@@ -52,7 +52,7 @@ On the Home Screen - Select the 'Browse Entertainment' button.
     #Add screen transition validation here
 
 On the Home Screen - Validate that the Movies count equals
-    [Documentation]                 Expected:
+    [Documentation]
     ...
     [Arguments]
     Validate that the Home Screen is displaying.
@@ -60,7 +60,7 @@ On the Home Screen - Validate that the Movies count equals
     #Pull this number from server-side metadata
 
 On the Home Screen - Validate that the Series count equals
-    [Documentation]                 Expected:
+    [Documentation]
     ...
     [Arguments]
     Validate that the Home Screen is displaying.
@@ -68,7 +68,7 @@ On the Home Screen - Validate that the Series count equals
     #Pull this number from server-side metadata
 
 On the Home Screen - Validate that the Audio count equals
-    [Documentation]                 Expected:
+    [Documentation]
     ...
     [Arguments]
     Validate that the Home Screen is displaying.

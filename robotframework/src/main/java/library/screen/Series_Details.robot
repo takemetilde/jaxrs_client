@@ -34,7 +34,7 @@ Validate that the Series Details Screen is displaying.
     #Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Series Details Screen - Select the following Series Episode.
-    [Documentation]                 Expected: The screen will display the Delta Logo.
+    [Documentation]                 The screen will display the Delta Logo.
     [Arguments]
 
 On the Series Details Screen - Validate that the Series Title is showing

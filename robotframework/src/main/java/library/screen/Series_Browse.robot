@@ -26,7 +26,7 @@ Validate that the Series Browse Screen is displaying.
     #Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Series Browse Screen - Select the following Series poster
-    [Documentation]                 Expected: The screen will display the Delta Logo.
+    [Documentation]                 The screen will display the Delta Logo.
     [Arguments]
 
 On the Series Browse Screen - Select the Back arrow.

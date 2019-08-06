@@ -26,19 +26,19 @@ Validate that the Album Details Screen is displaying.
     #Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Album Details Screen - Select the Volume button.
-    [Documentation]                 Expected: The Volume Pop-up displays.
+    [Documentation]                 The Volume Pop-up displays.
     ...                             DAPX-
     Validate that the Album Details Screen is displaying.
     Batch Click Button By Id        ${ALBUM_VOLUME}
 
 On the Album Details Screen - Select the Play Album button.
-    [Documentation]                 Expected: The Album begins playing.
+    [Documentation]                 The Album begins playing.
     ...                             DAPX-
     Validate that the Album Details Screen is displaying.
     Batch Click Button By Id        ${PLAY_ALBUM_BUTTON}
 
 On the Album Details Screen - Select the Play Song button.
-    [Documentation]                 Expected: The Song selected begins playing.
+    [Documentation]                 The Song selected begins playing.
     ...                             DAPX-
     [Arguments]                     ${song}
     Validate that the Album Details Screen is displaying.

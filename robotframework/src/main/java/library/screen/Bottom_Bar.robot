@@ -33,65 +33,65 @@ Validate that Bottom Bar is displaying.
     Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Bottom Bar - Select the 'Call Attendant' icon.
-    [Documentation]                 Expected: The 'Call Attendant' popup appears'.
+    [Documentation]                 The 'Call Attendant' popup appears'.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Click Button By Id        ${ATTENDANT_BUTTON}
     Batch Check Id Exists           ${ATTENDANT_BUTTONS}
 
 On the Bottom Bar - Select the 'Light' icon.
-    [Documentation]                 Expected: The 'Light' flag turns ON'.
+    [Documentation]                 The 'Light' flag turns ON'.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Click Button By Id        ${LIGHT_BUTTON}
 
 On the Attendant Call popup - Select 'ATTENDANT CALL ON' button.
-    [Documentation]                 Expected: The 'Attendant Call' flag turns ON'.
+    [Documentation]                 The 'Attendant Call' flag turns ON'.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Check Id Exists           ${ATTENDANT_BUTTONS}
     Batch Click Button By Id        ${ATTENDANT_ON}
 
 On the Attendant Call popup - Select 'ATTENDANT CALL OFF' button.
-    [Documentation]                 Expected: The 'Attendant Call' flag turns OFF'.
+    [Documentation]                 The 'Attendant Call' flag turns OFF'.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Check Id Exists           ${ATTENDANT_BUTTONS}
     Batch Click Button By Id        ${ATTENDANT_OFF}
 
 On the Bottom Bar - Select the 'Home' icon.
-    [Documentation]                 Expected: The screen displays the Home screen.
+    [Documentation]                 The screen displays the Home screen.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Click Button By Id        ${HOME}
 
 On the Bottom Bar - Select the 'Entertainment' icon.
-    [Documentation]                 Expected: The screen displays the Entertainment screen.
+    [Documentation]                 The screen displays the Entertainment screen.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Click Button By Id        ${ENTERTAINMENT}
 
 On the Bottom Bar - Select the 'My Flight' icon.
-    [Documentation]                 Expected: The screen displays the AirShow application.
+    [Documentation]                 The screen displays the AirShow application.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Click Button By Id        ${MY_FLIGHT}
 
 On the Bottom Bar - Select the 'Settings' icon.
-    [Documentation]                 Expected: The screen displays the Settings screen.
+    [Documentation]                 The screen displays the Settings screen.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Click Button By Id        ${SETTINGS}
 
 On the Bottom Bar - Select the 'Volume' icon.
-    [Documentation]                 Expected: The Volume popup appears.
+    [Documentation]                 The Volume popup appears.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Click Button By Id        ${LIGHT_BUTTON}
     Batch Check Id Exists           ${VOLUME_POPUP}
 
 On the Bottom Bar - Select the 'Brightness' icon.
-    [Documentation]                 Expected: The 'Light' flag turns ON'.
+    [Documentation]                 The 'Light' flag turns ON'.
     ...                             DAPX-
     Validate that Bottom Bar is displaying.
     Batch Click Button By Id        ${BRIGHTNESS}

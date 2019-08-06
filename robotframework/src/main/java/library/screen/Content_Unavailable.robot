@@ -22,13 +22,13 @@ Validate that the Content Unavailable Screen is displaying.
     Batch Match Text                ${UNIQUE_ELEMENT}       Content Unavailable
 
 On the Content Unavailable Screen - Select the Back button.
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
     Validate that the Content Unavailable Screen is displaying.
     Batch Click Button By Id        ${UNAVAILABLE_BACK}
 
 On the Content Unavailable Screen - Select the Close icon.
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
     Validate that the Content Unavailable Screen is displaying.
     Batch Click Button By Id        ${UNAVAILABLE_CLOSE}

@@ -24,13 +24,13 @@ Validate that the Settings Screen is displaying.
     #Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Settings Screen - Select the TURN OFF SCREEN button.
-    [Documentation]                 Expected: The screen will turn off.
+    [Documentation]                 The screen will turn off.
     All ITU Text Match              ${TURN_OFF}                     TURN OFF SCREEN
     All ITU Click Button            ${TURN_OFF}
     #Add screen transition validation here
 
 On the Settings Screen - Select the CHANGE YOUR LANGUAGE button.
-    [Documentation]                 Expected: The screen will display the Change Language screen.
+    [Documentation]                 The screen will display the Change Language screen.
     All ITU Text Match              ${CHANGE_YOUR_LANG}             CHANGE YOUR LANGUAGE
     All ITU Click Button            ${CHANGE_YOUR_LANG}
     #Add screen transition validation here

@@ -26,33 +26,33 @@ Validate that the Movie Browse Screen is displaying.
     #Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Movie Browse Screen - Select the Back arrow.
-    [Documentation]                 Expected: The Spotlight Browse Screen Displays.
+    [Documentation]                 The Spotlight Browse Screen Displays.
     ...                             DAPX-
     Validate that the Movie Browse Screen is displaying.
     Batch Click Button By Id        ${BACK}
 
 On the Movie Browse Screen - Select the Category name
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
     Validate that the Movie Browse Screen is displaying.
 
 On the Movie Browse Screen - Select the Movie -
-    [Documentation]             Expected: The Movie Details Screen displays.
+    [Documentation]             The Movie Details Screen displays.
     [Arguments]                 ${movie}
     Batch Click Button With ID and Search Children Text         ${MOVIE_POSTER}         ${movie}
 
 On the Movie Browse Screen - Validate that the Title is showing
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
     Validate that the Movie Browse Screen is displaying.
 
 On the Movie Browse Screen - Validate that the Rating is showing
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
     Validate that the Movie Browse Screen is displaying.
 
 On the Movie Browse Screen - Validate that the Clock is visible.
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
     Validate that the Movie Browse Screen is displaying.
 

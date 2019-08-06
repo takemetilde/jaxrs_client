@@ -21,14 +21,14 @@ Validate that the Album Browse Screen is displaying.
     #Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Album Browse Screen - Select the following Album Cover -
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
     [Arguments]                     ${album}
     Validate that the Album Browse Screen is displaying.
     Batch Click Button With ID and Search Children Text         ${ALBUM_COVER}         ${album}
 
 On the Audio Browse Screen - Select the following Audio Category -
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
     [Arguments]                     ${category}
     Validate that the Album Browse Screen is displaying.

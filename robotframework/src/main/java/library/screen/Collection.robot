@@ -18,5 +18,5 @@ Validate that the Collections Screen is displaying.
     #Batch Check Id Exists           ${UNIQUE_ELEMENT}
 
 On the Collection Spotlight Screen -
-    [Documentation]                 Expected:
+    [Documentation]
     ...                             DAPX-
