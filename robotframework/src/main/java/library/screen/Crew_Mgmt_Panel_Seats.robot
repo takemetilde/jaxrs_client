@@ -7,16 +7,23 @@
 Documentation                   Crew Management Panel SEATS Tab Web Elements
 Resource                        Base_Elements.resource
 
+*** Setup ***
+
 *** Variables ***
 ${CMP_SEATS_TAB_SCREEN}         #TODO
 ${MAGNIFYING_GLASS_ID}          #TODO
-${SCROLL_UP_ID}                 #TODO
-${SCROLL_DOWN_ID}               #TODO
+${LOPA_SCROLL_UP_ID}            #TODO
+${LOPA_SCROLL_DOWN_ID}          #TODO
 ${SOFT_RESET_ID}                #TODO
 ${HARD_RESET_ID}                #TODO
 ${SEAT_BASE_ID}                 #TODO
 
 *** Keywords ***
+
+#TODO: This keyword should preceed keywords to validate that you are on the correct screen.
+Validate the screen is on the Crew Management Panel SEATS Tab Screen.
+    Element Should Be Visible               ${CMP_MAIN_TAB_SCREEN}
+
 On the Crew Management Panel SEATS Tab Screen - Select the seat -
     [Documentation]                         The seat was selected.
     [Arguments]                             ${varargs}
@@ -37,7 +44,7 @@ On the Crew Management Panel SEATS Tab Screen - Select the MAGNIFYING GLASS (MIN
 On the Crew Management Panel SEATS Tab Screen - Select the SCROLL UP button -
     [Documentation]                         The LOPA will scroll up a certain number of times.
     [Arguments]                             ${NUM_OF_TIMES}
-    Soft Fail
+    Repeat Keyword  ${NUM_OF_TIMES}         ${SCROLL_DOWN_ID}
 
 On the Crew Management Panel SEATS Tab Screen - Select the SCROLL DOWN button -
     [Documentation]                         The LOPA will scroll down a certain number of times.

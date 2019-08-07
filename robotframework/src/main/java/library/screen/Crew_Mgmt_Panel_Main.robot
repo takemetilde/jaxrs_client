@@ -22,7 +22,9 @@ ${FLIGHT_TOGGLE}                flight-toggle
 ${LOCK_BUTTON_ID}               header-button-lock
 
 *** Keywords ***
-Validate the screen is on the Crew Management Panel Base Screen.
+
+#TODO: This keyword should start every preceeding keyword to validate that you are on the correct screen.
+Validate the screen is on the Crew Management Panel MAIN Tab Screen.
     Element Should Be Visible               ${CMP_MAIN_TAB_SCREEN}
 
 On the Crew Management Panel MAIN Tab Screen (FLIGHT CLOSED) - Select the IFE Maintenance button.

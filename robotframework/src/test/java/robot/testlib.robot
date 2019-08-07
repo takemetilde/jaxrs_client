@@ -1,5 +1,5 @@
 *** Settings ***
-Library  library.CustomTestLibrary
+Library  library
 Documentation
 ...    Keyword Test Case.
 
@@ -12,3 +12,4 @@ ${keyword}  Keyword1
 TC_001 Browser Start and Close
 	Print Test Keyword Not Equals   ${keyword}  Keyword2
 	Print Test Keyword Equals       ${keyword}  Keyword1
+	Validate that the Album Details Screen is displaying.

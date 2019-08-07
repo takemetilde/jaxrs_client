@@ -19,8 +19,12 @@ ${DELTA_LOGO_TEXT}              #TODO
 ${FLIGHT_DEP_TEXT}              #TODO
 ${FLIGHT_ARR_TEXT}              #TODO
 ${TIME_TO_DEST_ID}              #TODO
+${SYSTEM_STATUS_FLAG_ID}        #TODO
+${ATTENDANT_CALL_FLAG_ID}
 
 *** Keywords ***
+
+#TODO: This keyword should start every preceeding keyword to validate that you are on the correct screen.
 Validate the screen is on the Crew Management Panel Base Screen.
     Element Should Be Visible               ${CMP_BASE_SCREEN}
 
