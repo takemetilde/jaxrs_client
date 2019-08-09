@@ -8,18 +8,17 @@ Documentation                   Crew Management Panel MAIN Tab Web Elements
 Resource                        Base_Elements.resource
 
 *** Variables ***
-${CMP_MAIN_TAB_SCREEN}          #TODO
-${LOCK_SCREEN}                  lock-content
-${FLIGHT_NUMBER_FIELD_ID}       input-flight-number
-${DEPARTURE_FIELD_ID}           input-departure
-${ARRIVAL_FIELD_ID}             input-arrival
-${OPEN_FLIGHT_BUTTON_ID}        button-open-flight
-${ENT_TOGGLE_ID}                entertainment-toggle
-${ENT_TOGGLE_STATE_}            #TODO
-${ENT_CONF_CLASS}               modal-content
-${ENT_CONF_CLASS}               #TODO
-${FLIGHT_TOGGLE}                flight-toggle
-${LOCK_BUTTON_ID}               header-button-lock
+${CMP_MAIN_TAB_SCREEN}                  #TODO
+${CMP_MAIN_FLIGHT_FIELD_ID}             id:input-flight-number
+${CMP_MAIN_DEPARTURE_FIELD_ID}          id:input-departure
+${CMP_MAIN_ARRIVAL_FIELD_ID}            id:input-arrival
+${CMP_MAIN_OPEN_FLIGHT_BUTTON_ID}       id:button-open-flight
+${CMP_MAIN_ENT_TOGGLE_ID}               id:entertainment-toggle
+${CMP_MAIN_ENT_TOGGLE_STATE_}           #TODO
+${CMP_MAIN_ENT_CONF_CLASS}              class:modal-content
+${CMP_MAIN_ENT_CONF_CLASS}              #TODO
+${CMP_MAIN_FLIGHT_TOGGLE_ID}            id:flight-toggle
+${CMP_MAIN_LOCK_BUTTON_ID}              id:header-button-lock
 
 *** Keywords ***
 

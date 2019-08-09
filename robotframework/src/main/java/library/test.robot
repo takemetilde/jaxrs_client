@@ -1,4 +1,6 @@
 *** Settings ***
+Library  Selenium2Library
+
 Documentation
 ...    Login Test Case.
 
@@ -9,5 +11,5 @@ ${URL}  http://www.google.com
 
 
 *** Test Cases ***
-TC_001 Browser Start and Close
+TC_001 Test
 

@@ -2,16 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d76b2a-1d6e-470c-9c7e-d893e7296a72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/robotframework/src/main/python/library/BuiltIn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robotframework/src/main/python/library/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Maintenance_Login.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/BITs.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Cache_Status.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Content_Status.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Ethernet_Status.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/LRUs.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Maintenance_Dashboard.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Maintenance_Top_Bar.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Seat_Management.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Software_Loading.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/System_Management.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/System_Setup.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Attendant_Call.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Attendant_Call.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Base.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Base.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Main.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Main.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Seats.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Seats.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_System_Status.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_System_Status.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Album_Details.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Album_Details.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Audio_Browse.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Audio_Browse.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Base_Elements.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Base_Elements.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Bottom_Bar.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Bottom_Bar.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Change_Language.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Change_Language.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Collection.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Collection.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Content_Unavailable.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Content_Unavailable.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Attendant_Call.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Attendant_Call_Tab.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Base.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/CMP_Base.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Main.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Main_Tab.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Seats.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Seats_Tab.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_System_Status.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/System_Status_Tab.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Home.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Home.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Initial_Language_Selection.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Initial_Language_Selection.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Lock.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Lock.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Movie_Browse.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Movie_Browse.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Movie_Details.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Movie_Details.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Parental_Advisory.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Parental_Advisory.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Series_Browse.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Series_Browse.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Series_Details.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Series_Details.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Settings.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Settings.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Spotlight_Browse.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Spotlight_Browse.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Top_Bar.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Top_Bar.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Video_Player.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Video_Player.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_ARA.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_ARA.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_DEU.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_DEU.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_ENG.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_ENG.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_FRA.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_FRA.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_HEB.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_HEB.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_HIN.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_HIN.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_ITA.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_ITA.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_JPN.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_JPN.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_KOR.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_KOR.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_NLD.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_NLD.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_POR.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_POR.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_RUS.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_RUS.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_SPA.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_SPA.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_THA.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_THA.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_ZHO.resource" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_ZHO.resource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/python/library/BuiltIn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/main/python/library/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Availability.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,60 +75,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_System_Status.robot">
+        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Content_Status.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+            <state>
+              <caret selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Attendant_Call.robot">
+        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/test.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotframework/pom.xml">
+        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/System_Management.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="540">
+              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Base.robot">
+        <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="105" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Seats.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Lock.robot">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Cache_Status.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="59" lean-forward="true" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Main.robot">
+        <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Ethernet_Status.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="210">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -98,21 +138,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>On the Crew Management Panel Base Screen</find>
+      <find>Base Screen</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>On the Maintenance Base Screen</replace>
+      <replace>Top Bar</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/resource/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientbuilder/ClientBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clientbuilder/ClientBuilder1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auth/Authentication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auth/OAuth2Authentication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auth/BaseAuthentication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/auth/BasicAuthentication.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TryTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/resource/PostsTagged.java" />
         <option value="$PROJECT_DIR$/src/main/java/resource/PostsDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/resource/PostsLists.java" />
         <option value="$PROJECT_DIR$/src/main/java/resource/Posts.java" />
@@ -123,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/main/java/robot/test.robot" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/restclient/pom.xml" />
-        <option value="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" />
         <option value="$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jsonschema2pojo/src/main/java/pojogen.java" />
@@ -137,10 +177,34 @@
         <option value="$PROJECT_DIR$/robotframework/pom.xml" />
         <option value="$PROJECT_DIR$/robotframework/src/main/python/library/BuiltIn.py" />
         <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Base.robot" />
-        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Main.robot" />
         <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Attendant_Call.robot" />
         <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Seats.robot" />
         <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_System_Status.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Lock.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Main.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Maintenance_Mode_Base.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/Maintenance_Login.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Lock.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Maintenance_Login.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/CMP_Base.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/MM_Base.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Maintenance_Top_Bar.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/System_Setup.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Seats_Tab.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Seat_Management.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Maintenance_Dashboard.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/System_Management.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/BITs.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Software_Loading.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Availability.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/LRUs.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Content_Status.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/test.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/test.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/test.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Ethernet_Status.robot" />
+        <option value="$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Cache_Status.robot" />
       </list>
     </option>
   </component>
@@ -157,8 +221,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
@@ -221,6 +285,41 @@
               <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="screen" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="screen" type="462c0819:PsiDirectoryNode" />
+              <item name="mm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaxrs_client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaxrs_client" type="462c0819:PsiDirectoryNode" />
+              <item name="robotframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="robot" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -251,11 +350,11 @@
       <recent name="C:\dev\Bitbucket\jaxrs_client\robotframework\src\main\java\library" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\Bitbucket\jaxrs_client\robotframework\src\main\python\library" />
       <recent name="C:\dev\Bitbucket\jaxrs_client\robotframework\src\main\java\library" />
-      <recent name="$PROJECT_DIR$/robotframework/src/main/java" />
-      <recent name="$PROJECT_DIR$/robotframework/src/main" />
-      <recent name="$PROJECT_DIR$/jsonschema2pojo/src/main/resources/schema" />
+      <recent name="C:\dev\Bitbucket\jaxrs_client\robotframework\src\main\java\library\screen" />
+      <recent name="C:\dev\Bitbucket\jaxrs_client\robotframework\src\main\java\library\screen\pax" />
+      <recent name="C:\dev\Bitbucket\jaxrs_client\robotframework\src\main\java\library\screen\cmp\cabin_crew" />
+      <recent name="C:\dev\Bitbucket\jaxrs_client\robotframework\src\main\java\library\screen\cmp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,10 +460,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-6" y="2" width="1546" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33195022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20026882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,13 +471,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32826087" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32673267" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43281472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18311875" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18364419" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32826087" />
@@ -420,48 +519,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientbuilder/ClientBuilder1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/auth/OAuth2Authentication.java" />
-    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/auth/Authentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar!/javax/ws/rs/client/Invocation.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TryTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/resource/PostsTagged.java" />
-    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/auth/BasicAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resource/PostsLists.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/resource/PostsDeserializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/resource/PostsList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/resource/Employee.java" />
-    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/jsonschema2pojo.iml" />
-    <entry file="file://$PROJECT_DIR$/jsonschema2pojo/target/classes/schema/test.json" />
-    <entry file="file://$PROJECT_DIR$/target/classes/resource/PostLists.class" />
-    <entry file="file://$PROJECT_DIR$/restclient/src/main/java/pojo/Posts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/robot/test/robot.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/markusbernhardt/robotframework-selenium2library-java/1.4.0.8/robotframework-selenium2library-java-1.4.0.8.jar!/com/github/markusbernhardt/selenium2library/keywords/BrowserManagement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3320">
-          <caret line="226" column="33" lean-forward="true" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11-sources.jar!/org/testng/Assert.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -575,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/CustomTestLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -594,22 +644,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Album_Details.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/testlib.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/language/home/Dict_ARA.resource">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,12 +665,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Base_Elements.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/Maintenance_Login.robot">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/robotframework/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -639,46 +675,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Main.robot">
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Album_Details.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="360">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_System_Status.robot">
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Maintenance_Dashboard.robot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/language/Dict_ARA.resource">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Lock.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Attendant_Call_Tab.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/System_Status_Tab.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Attendant_Call.robot">
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Maintenance_Login.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Base.robot">
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/CMP_Base.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="105" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
+        <state relative-caret-position="525">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Home.robot">
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Main_Tab.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/System_Setup.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/cmp/Seats_Tab.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="43" selection-start-line="43" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Maintenance_Top_Bar.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Seat_Management.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Maintenance_Dashboard.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Software_Loading.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/BITs.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/LRUs.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Content_Unavailable.robot">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Crew_Mgmt_Panel_Seats.robot">
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Spotlight_Browse.robot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Home.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state relative-caret-position="-548" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/pax/Base_Elements.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/Lock.robot">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/robotframework/src/test/java/robot/test.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Availability.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/test.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/System_Management.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Content_Status.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Ethernet_Status.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotframework/src/main/java/library/screen/mm/Cache_Status.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="59" lean-forward="true" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

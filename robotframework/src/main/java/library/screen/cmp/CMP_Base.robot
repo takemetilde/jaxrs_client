@@ -4,7 +4,7 @@
 # All Rights Reserved.
 
 *** Settings ***
-Documentation                   Crew Management Panel Web Elements
+Documentation                   Crew Management Panel Base Web Elements
 Resource                        Base_Elements.robot
 
 *** Variables ***
@@ -25,7 +25,7 @@ ${ATTENDANT_CALL_FLAG_ID}
 *** Keywords ***
 
 #TODO: This keyword should start every preceeding keyword to validate that you are on the correct screen.
-Validate the screen is on the Crew Management Panel Base Screen.
+Validate the Crew Management Panel Base elements are displaying.
     Element Should Be Visible               ${CMP_BASE_SCREEN}
 
 On the Crew Management Panel Screen - Validate that the MAIN Tab is displaying.

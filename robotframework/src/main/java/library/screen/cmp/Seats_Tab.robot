@@ -11,7 +11,7 @@ Resource                        Base_Elements.resource
 
 *** Variables ***
 ${CMP_SEATS_TAB_SCREEN}         #TODO
-${MAGNIFYING_GLASS_ID}          #TODO
+${SEATS_TAB_MAGNIFY_ID}                   #TODO: Consider putting in BASE elements
 ${LOPA_SCROLL_UP_ID}            #TODO
 ${LOPA_SCROLL_DOWN_ID}          #TODO
 ${SOFT_RESET_ID}                #TODO
@@ -31,10 +31,6 @@ On the Crew Management Panel SEATS Tab Screen - Select the seat -
 
 On the Crew Management Panel SEATS Tab Screen - Select the MAGNIFYING GLASS (PLUS).
     [Documentation]                         The LOPA will zoom in showing the seat numbers.
-    Soft Fail
-
-On the Crew Management Panel SEATS Tab Screen - Select the MAGNIFYING GLASS (MINUS).
-    [Documentation]                         The LOPA will zoom out showing the general overview of the seats.
     Soft Fail
 
 On the Crew Management Panel SEATS Tab Screen - Select the MAGNIFYING GLASS (MINUS).
