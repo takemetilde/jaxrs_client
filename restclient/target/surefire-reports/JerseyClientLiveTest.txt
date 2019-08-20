@@ -1,4 +1,43 @@
 -------------------------------------------------------------------------------
 Test set: JerseyClientLiveTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.105 sec
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.759 sec <<< FAILURE!
+getDescriptionFromJiraIssueID(JerseyClientLiveTest)  Time elapsed: 2.239 sec  <<< FAILURE!
+javax.ws.rs.client.ResponseProcessingException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "customfield_10104" (class pojo.jira.Fields), not marked as ignorable (118 known properties: "aggregatetimeoriginalestimate", "customfield11600", "environment", "components", "project", "attachment", "creator", "progress", "customfield12306", "customfield12307", "customfield11219", "customfield12309", "aggregatetimeestimate", "lastViewed", "customfield11220", "customfield12310", "customfield11101", "customfield11103", "customfield11500", "customfield11105", "subtasks", "customfield11107", "customfield11900", "customfield11902", "customfield11903", "customfield11904", "resolutiondate", "comment", "customfield10020", "customfield10021", "customfield12200", "customfield10700", "issuelinks", "timetracking", "customfield11400", "customfield11401", "customfield11800", "customfield11801", "customfield11802", "customfield11803", "customfield11804", "customfield11805", "customfield11806", "customfield11807", "customfield11808", "customfield11809", "workratio", "duedate", "priority", "summary", "customfield12100", "customfield12101", "customfield12102", "customfield12103" [truncated]])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 1, column: 359] (through reference chain: pojo.jira.Jira["fields"]->pojo.jira.Fields["customfield_10104"])
+	at org.glassfish.jersey.client.JerseyInvocation.translate(JerseyInvocation.java:849)
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$1(JerseyInvocation.java:743)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:390)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:741)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:404)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:300)
+	at restclient.JiraClient.getFieldsDescription(JiraClient.java:31)
+	at JerseyClientLiveTest.getDescriptionFromJiraIssueID(JerseyClientLiveTest.java:50)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "customfield_10104" (class pojo.jira.Fields), not marked as ignorable (118 known properties: "aggregatetimeoriginalestimate", "customfield11600", "environment", "components", "project", "attachment", "creator", "progress", "customfield12306", "customfield12307", "customfield11219", "customfield12309", "aggregatetimeestimate", "lastViewed", "customfield11220", "customfield12310", "customfield11101", "customfield11103", "customfield11500", "customfield11105", "subtasks", "customfield11107", "customfield11900", "customfield11902", "customfield11903", "customfield11904", "resolutiondate", "comment", "customfield10020", "customfield10021", "customfield12200", "customfield10700", "issuelinks", "timetracking", "customfield11400", "customfield11401", "customfield11800", "customfield11801", "customfield11802", "customfield11803", "customfield11804", "customfield11805", "customfield11806", "customfield11807", "customfield11808", "customfield11809", "workratio", "duedate", "priority", "summary", "customfield12100", "customfield12101", "customfield12102", "customfield12103" [truncated]])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 1, column: 359] (through reference chain: pojo.jira.Jira["fields"]->pojo.jira.Fields["customfield_10104"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:823)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1153)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1589)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1567)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:294)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:127)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:1574)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:965)
+	at org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase.readFrom(ProviderBase.java:838)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.invokeReadFrom(ReaderInterceptorExecutor.java:233)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.aroundReadFrom(ReaderInterceptorExecutor.java:212)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor.proceed(ReaderInterceptorExecutor.java:132)
+	at org.glassfish.jersey.message.internal.MessageBodyFactory.readFrom(MessageBodyFactory.java:1067)
+	at org.glassfish.jersey.message.internal.InboundMessageContext.readEntity(InboundMessageContext.java:850)
+	at org.glassfish.jersey.message.internal.InboundMessageContext.readEntity(InboundMessageContext.java:784)
+	at org.glassfish.jersey.client.ClientResponse.readEntity(ClientResponse.java:297)
+	at org.glassfish.jersey.client.JerseyInvocation.translate(JerseyInvocation.java:846)
+	... 44 more
+

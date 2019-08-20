@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="JerseyClientLiveTest" time="1.561" errors="0" skipped="0">
+<testsuite tests="4" failures="1" name="JerseyClientLiveTest" time="3.127" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
     <property name="java.vm.version" value="25.191-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\dev\Bitbucket\jaxrs_client"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\dev\Bitbucket\jaxrs_client\restclient"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\dev\Bitbucket\jaxrs_client"/>
+    <property name="user.dir" value="C:\dev\Bitbucket\jaxrs_client\restclient"/>
     <property name="java.runtime.version" value="1.8.0_191-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\apache\maven\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Integrity\ILMClient11.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\PROGRA~2\INTEGR~1\Toolkit\mksnt;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\hhong83\AppData\Roaming\Python\Python37\Scripts;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Android\tools;C:\Program Files\Android\platform-tools;C:\Program Files\PuTTY\;C:\Program Files\apache\maven\apache-maven-3.6.1\bin;C:\Users\hhong83\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\hhong83\AppData\Local\Programs\Python\Python37\;C:\Users\hhong83\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Android\tools;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Integrity\ILMClient11.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\PROGRA~2\INTEGR~1\Toolkit\mksnt;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\hhong83\AppData\Roaming\Python\Python37\Scripts;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Android\tools;C:\Program Files\Android\platform-tools;C:\Program Files\PuTTY\;C:\Program Files\apache\maven\apache-maven-3.6.1\bin;C:\Users\hhong83\appdata\local\programs\python\python37\\Scripts;C:\Users\hhong83\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\hhong83\AppData\Local\Programs\Python\Python37\;C:\Users\hhong83\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Android\tools;;."/>
     <property name="maven.conf" value="C:\Program Files\apache\maven\apache-maven-3.6.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,7 +65,50 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="JerseyClientLiveTest" name="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated" time="1.459"/>
-  <testcase classname="JerseyClientLiveTest" name="receiveCorrectResponseTest" time="0.06"/>
-  <testcase classname="JerseyClientLiveTest" name="testMultiplePosts" time="0.042"/>
+  <testcase classname="JerseyClientLiveTest" name="getDescriptionFromJiraIssueID" time="2.239">
+    <failure message="com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;customfield_10104&quot; (class pojo.jira.Fields), not marked as ignorable (118 known properties: &quot;aggregatetimeoriginalestimate&quot;, &quot;customfield11600&quot;, &quot;environment&quot;, &quot;components&quot;, &quot;project&quot;, &quot;attachment&quot;, &quot;creator&quot;, &quot;progress&quot;, &quot;customfield12306&quot;, &quot;customfield12307&quot;, &quot;customfield11219&quot;, &quot;customfield12309&quot;, &quot;aggregatetimeestimate&quot;, &quot;lastViewed&quot;, &quot;customfield11220&quot;, &quot;customfield12310&quot;, &quot;customfield11101&quot;, &quot;customfield11103&quot;, &quot;customfield11500&quot;, &quot;customfield11105&quot;, &quot;subtasks&quot;, &quot;customfield11107&quot;, &quot;customfield11900&quot;, &quot;customfield11902&quot;, &quot;customfield11903&quot;, &quot;customfield11904&quot;, &quot;resolutiondate&quot;, &quot;comment&quot;, &quot;customfield10020&quot;, &quot;customfield10021&quot;, &quot;customfield12200&quot;, &quot;customfield10700&quot;, &quot;issuelinks&quot;, &quot;timetracking&quot;, &quot;customfield11400&quot;, &quot;customfield11401&quot;, &quot;customfield11800&quot;, &quot;customfield11801&quot;, &quot;customfield11802&quot;, &quot;customfield11803&quot;, &quot;customfield11804&quot;, &quot;customfield11805&quot;, &quot;customfield11806&quot;, &quot;customfield11807&quot;, &quot;customfield11808&quot;, &quot;customfield11809&quot;, &quot;workratio&quot;, &quot;duedate&quot;, &quot;priority&quot;, &quot;summary&quot;, &quot;customfield12100&quot;, &quot;customfield12101&quot;, &quot;customfield12102&quot;, &quot;customfield12103&quot; [truncated]])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 1, column: 359] (through reference chain: pojo.jira.Jira[&quot;fields&quot;]-&gt;pojo.jira.Fields[&quot;customfield_10104&quot;])" type="javax.ws.rs.client.ResponseProcessingException">javax.ws.rs.client.ResponseProcessingException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;customfield_10104&quot; (class pojo.jira.Fields), not marked as ignorable (118 known properties: &quot;aggregatetimeoriginalestimate&quot;, &quot;customfield11600&quot;, &quot;environment&quot;, &quot;components&quot;, &quot;project&quot;, &quot;attachment&quot;, &quot;creator&quot;, &quot;progress&quot;, &quot;customfield12306&quot;, &quot;customfield12307&quot;, &quot;customfield11219&quot;, &quot;customfield12309&quot;, &quot;aggregatetimeestimate&quot;, &quot;lastViewed&quot;, &quot;customfield11220&quot;, &quot;customfield12310&quot;, &quot;customfield11101&quot;, &quot;customfield11103&quot;, &quot;customfield11500&quot;, &quot;customfield11105&quot;, &quot;subtasks&quot;, &quot;customfield11107&quot;, &quot;customfield11900&quot;, &quot;customfield11902&quot;, &quot;customfield11903&quot;, &quot;customfield11904&quot;, &quot;resolutiondate&quot;, &quot;comment&quot;, &quot;customfield10020&quot;, &quot;customfield10021&quot;, &quot;customfield12200&quot;, &quot;customfield10700&quot;, &quot;issuelinks&quot;, &quot;timetracking&quot;, &quot;customfield11400&quot;, &quot;customfield11401&quot;, &quot;customfield11800&quot;, &quot;customfield11801&quot;, &quot;customfield11802&quot;, &quot;customfield11803&quot;, &quot;customfield11804&quot;, &quot;customfield11805&quot;, &quot;customfield11806&quot;, &quot;customfield11807&quot;, &quot;customfield11808&quot;, &quot;customfield11809&quot;, &quot;workratio&quot;, &quot;duedate&quot;, &quot;priority&quot;, &quot;summary&quot;, &quot;customfield12100&quot;, &quot;customfield12101&quot;, &quot;customfield12102&quot;, &quot;customfield12103&quot; [truncated]])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 1, column: 359] (through reference chain: pojo.jira.Jira[&quot;fields&quot;]-&gt;pojo.jira.Fields[&quot;customfield_10104&quot;])
+	at org.glassfish.jersey.client.JerseyInvocation.translate(JerseyInvocation.java:849)
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$1(JerseyInvocation.java:743)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:390)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:741)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:404)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:300)
+	at restclient.JiraClient.getFieldsDescription(JiraClient.java:31)
+	at JerseyClientLiveTest.getDescriptionFromJiraIssueID(JerseyClientLiveTest.java:50)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;customfield_10104&quot; (class pojo.jira.Fields), not marked as ignorable (118 known properties: &quot;aggregatetimeoriginalestimate&quot;, &quot;customfield11600&quot;, &quot;environment&quot;, &quot;components&quot;, &quot;project&quot;, &quot;attachment&quot;, &quot;creator&quot;, &quot;progress&quot;, &quot;customfield12306&quot;, &quot;customfield12307&quot;, &quot;customfield11219&quot;, &quot;customfield12309&quot;, &quot;aggregatetimeestimate&quot;, &quot;lastViewed&quot;, &quot;customfield11220&quot;, &quot;customfield12310&quot;, &quot;customfield11101&quot;, &quot;customfield11103&quot;, &quot;customfield11500&quot;, &quot;customfield11105&quot;, &quot;subtasks&quot;, &quot;customfield11107&quot;, &quot;customfield11900&quot;, &quot;customfield11902&quot;, &quot;customfield11903&quot;, &quot;customfield11904&quot;, &quot;resolutiondate&quot;, &quot;comment&quot;, &quot;customfield10020&quot;, &quot;customfield10021&quot;, &quot;customfield12200&quot;, &quot;customfield10700&quot;, &quot;issuelinks&quot;, &quot;timetracking&quot;, &quot;customfield11400&quot;, &quot;customfield11401&quot;, &quot;customfield11800&quot;, &quot;customfield11801&quot;, &quot;customfield11802&quot;, &quot;customfield11803&quot;, &quot;customfield11804&quot;, &quot;customfield11805&quot;, &quot;customfield11806&quot;, &quot;customfield11807&quot;, &quot;customfield11808&quot;, &quot;customfield11809&quot;, &quot;workratio&quot;, &quot;duedate&quot;, &quot;priority&quot;, &quot;summary&quot;, &quot;customfield12100&quot;, &quot;customfield12101&quot;, &quot;customfield12102&quot;, &quot;customfield12103&quot; [truncated]])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 1, column: 359] (through reference chain: pojo.jira.Jira[&quot;fields&quot;]-&gt;pojo.jira.Fields[&quot;customfield_10104&quot;])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:823)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1153)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1589)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1567)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:294)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:127)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:1574)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:965)
+	at org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase.readFrom(ProviderBase.java:838)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.invokeReadFrom(ReaderInterceptorExecutor.java:233)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.aroundReadFrom(ReaderInterceptorExecutor.java:212)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor.proceed(ReaderInterceptorExecutor.java:132)
+	at org.glassfish.jersey.message.internal.MessageBodyFactory.readFrom(MessageBodyFactory.java:1067)
+	at org.glassfish.jersey.message.internal.InboundMessageContext.readEntity(InboundMessageContext.java:850)
+	at org.glassfish.jersey.message.internal.InboundMessageContext.readEntity(InboundMessageContext.java:784)
+	at org.glassfish.jersey.client.ClientResponse.readEntity(ClientResponse.java:297)
+	at org.glassfish.jersey.client.JerseyInvocation.translate(JerseyInvocation.java:846)
+	... 44 more
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@11028347
+</system-out>
+  </testcase>
+  <testcase classname="JerseyClientLiveTest" name="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated" time="0.651"/>
+  <testcase classname="JerseyClientLiveTest" name="receiveCorrectResponseTest" time="0.149"/>
+  <testcase classname="JerseyClientLiveTest" name="testMultiplePosts" time="0.088"/>
 </testsuite>

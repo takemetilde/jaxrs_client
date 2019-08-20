@@ -5,7 +5,7 @@
     <classes>
       <class name="JerseyClientLiveTest">
         <methods>
-          <include name="givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated"/>
+          <include name="getDescriptionFromJiraIssueID"/>
         </methods>
       </class> <!-- JerseyClientLiveTest -->
     </classes>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-JerseyClientLiveTest">
-              <span class="suite-name border-passed">JerseyClientLiveTest</span>
+              <span class="suite-name border-failed">JerseyClientLiveTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-JerseyClientLiveTest" class="hide-methods failed suite-JerseyClientLiveTest"> (hide)</a> <!-- hide-methods failed suite-JerseyClientLiveTest -->
+                      <a href="#" panel-name="suite-JerseyClientLiveTest" class="show-methods failed suite-JerseyClientLiveTest"> (show)</a> <!-- show-methods failed suite-JerseyClientLiveTest -->
+                    </span>
+                    <div class="method-list-content failed suite-JerseyClientLiveTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JerseyClientLiveTest" title="JerseyClientLiveTest" hash-for-method="getDescriptionFromJiraIssueID">getDescriptionFromJiraIssueID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-JerseyClientLiveTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -127,6 +141,60 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-JerseyClientLiveTest" class="panel JerseyClientLiveTest">
+          <div class="suite-JerseyClientLiveTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">JerseyClientLiveTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDescriptionFromJiraIssueID">
+                  </a> <!-- getDescriptionFromJiraIssueID -->
+                  <span class="method-name">getDescriptionFromJiraIssueID</span>
+                  <div class="stack-trace">javax.ws.rs.client.ResponseProcessingException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;customfield_10104&quot; (class pojo.jira.Fields), not marked as ignorable (118 known properties: &quot;aggregatetimeoriginalestimate&quot;, &quot;customfield11600&quot;, &quot;environment&quot;, &quot;components&quot;, &quot;project&quot;, &quot;attachment&quot;, &quot;creator&quot;, &quot;progress&quot;, &quot;customfield12306&quot;, &quot;customfield12307&quot;, &quot;customfield11219&quot;, &quot;customfield12309&quot;, &quot;aggregatetimeestimate&quot;, &quot;lastViewed&quot;, &quot;customfield11220&quot;, &quot;customfield12310&quot;, &quot;customfield11101&quot;, &quot;customfield11103&quot;, &quot;customfield11500&quot;, &quot;customfield11105&quot;, &quot;subtasks&quot;, &quot;customfield11107&quot;, &quot;customfield11900&quot;, &quot;customfield11902&quot;, &quot;customfield11903&quot;, &quot;customfield11904&quot;, &quot;resolutiondate&quot;, &quot;comment&quot;, &quot;customfield10020&quot;, &quot;customfield10021&quot;, &quot;customfield12200&quot;, &quot;customfield10700&quot;, &quot;issuelinks&quot;, &quot;timetracking&quot;, &quot;customfield11400&quot;, &quot;customfield11401&quot;, &quot;customfield11800&quot;, &quot;customfield11801&quot;, &quot;customfield11802&quot;, &quot;customfield11803&quot;, &quot;customfield11804&quot;, &quot;customfield11805&quot;, &quot;customfield11806&quot;, &quot;customfield11807&quot;, &quot;customfield11808&quot;, &quot;customfield11809&quot;, &quot;workratio&quot;, &quot;duedate&quot;, &quot;priority&quot;, &quot;summary&quot;, &quot;customfield12100&quot;, &quot;customfield12101&quot;, &quot;customfield12102&quot;, &quot;customfield12103&quot; [truncated]])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 1, column: 359] (through reference chain: pojo.jira.Jira[&quot;fields&quot;]-&gt;pojo.jira.Fields[&quot;customfield_10104&quot;])
+	at org.glassfish.jersey.client.JerseyInvocation.translate(JerseyInvocation.java:849)
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$1(JerseyInvocation.java:743)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:205)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:390)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:741)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:404)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:300)
+	at restclient.JiraClient.getFieldsDescription(JiraClient.java:31)
+	at JerseyClientLiveTest.getDescriptionFromJiraIssueID(JerseyClientLiveTest.java:50)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;customfield_10104&quot; (class pojo.jira.Fields), not marked as ignorable (118 known properties: &quot;aggregatetimeoriginalestimate&quot;, &quot;customfield11600&quot;, &quot;environment&quot;, &quot;components&quot;, &quot;project&quot;, &quot;attachment&quot;, &quot;creator&quot;, &quot;progress&quot;, &quot;customfield12306&quot;, &quot;customfield12307&quot;, &quot;customfield11219&quot;, &quot;customfield12309&quot;, &quot;aggregatetimeestimate&quot;, &quot;lastViewed&quot;, &quot;customfield11220&quot;, &quot;customfield12310&quot;, &quot;customfield11101&quot;, &quot;customfield11103&quot;, &quot;customfield11500&quot;, &quot;customfield11105&quot;, &quot;subtasks&quot;, &quot;customfield11107&quot;, &quot;customfield11900&quot;, &quot;customfield11902&quot;, &quot;customfield11903&quot;, &quot;customfield11904&quot;, &quot;resolutiondate&quot;, &quot;comment&quot;, &quot;customfield10020&quot;, &quot;customfield10021&quot;, &quot;customfield12200&quot;, &quot;customfield10700&quot;, &quot;issuelinks&quot;, &quot;timetracking&quot;, &quot;customfield11400&quot;, &quot;customfield11401&quot;, &quot;customfield11800&quot;, &quot;customfield11801&quot;, &quot;customfield11802&quot;, &quot;customfield11803&quot;, &quot;customfield11804&quot;, &quot;customfield11805&quot;, &quot;customfield11806&quot;, &quot;customfield11807&quot;, &quot;customfield11808&quot;, &quot;customfield11809&quot;, &quot;workratio&quot;, &quot;duedate&quot;, &quot;priority&quot;, &quot;summary&quot;, &quot;customfield12100&quot;, &quot;customfield12101&quot;, &quot;customfield12102&quot;, &quot;customfield12103&quot; [truncated]])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 1, column: 359] (through reference chain: pojo.jira.Jira[&quot;fields&quot;]-&gt;pojo.jira.Fields[&quot;customfield_10104&quot;])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:823)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1153)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1589)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1567)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:294)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:127)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+	at com.fasterxml.jackson.databind.ObjectReader._bind(ObjectReader.java:1574)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:965)
+	at org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase.readFrom(ProviderBase.java:838)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.invokeReadFrom(ReaderInterceptorExecutor.java:233)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$TerminalReaderInterceptor.aroundReadFrom(ReaderInterceptorExecutor.java:212)
+	at org.glassfish.jersey.message.internal.ReaderInterceptorExecutor.proceed(ReaderInterceptorExecutor.java:132)
+	at org.glassfish.jersey.message.internal.MessageBodyFactory.readFrom(MessageBodyFactory.java:1067)
+	at org.glassfish.jersey.message.internal.InboundMessageContext.readEntity(InboundMessageContext.java:850)
+	at org.glassfish.jersey.message.internal.InboundMessageContext.readEntity(InboundMessageContext.java:784)
+	at org.glassfish.jersey.client.ClientResponse.readEntity(ClientResponse.java:297)
+	at org.glassfish.jersey.client.JerseyInvocation.translate(JerseyInvocation.java:846)
+	... 44 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JerseyClientLiveTest-class-failed -->
           <div class="suite-JerseyClientLiveTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -207,24 +275,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated')
+data.setCell(0, 1, 'getDescriptionFromJiraIssueID')
 data.setCell(0, 2, 'JerseyClientLiveTest')
-data.setCell(0, 3, 1458);
+data.setCell(0, 3, 2228);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'receiveCorrectResponseTest')
+data.setCell(1, 1, 'givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated')
 data.setCell(1, 2, 'JerseyClientLiveTest')
-data.setCell(1, 3, 62);
+data.setCell(1, 3, 655);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testMultiplePosts')
+data.setCell(2, 1, 'receiveCorrectResponseTest')
 data.setCell(2, 2, 'JerseyClientLiveTest')
-data.setCell(2, 3, 41);
+data.setCell(2, 3, 150);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMultiplePosts')
+data.setCell(3, 2, 'JerseyClientLiveTest')
+data.setCell(3, 3, 89);
 window.suiteTableData['JerseyClientLiveTest']= { tableData: data, tableDiv: 'times-div-JerseyClientLiveTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-JerseyClientLiveTest">
               </div> <!-- times-div-JerseyClientLiveTest -->
             </div> <!-- times-div -->
@@ -252,16 +324,22 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">JerseyClientLiveTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getDescriptionFromJiraIssueID</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">givenCorrectObject_whenCorrectJsonRequest_thenResponseCodeCreated</span>
+                <span class="method-start">2235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">receiveCorrectResponseTest</span>
-                <span class="method-start">1458 ms</span>
+                <span class="method-start">2891 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testMultiplePosts</span>
-                <span class="method-start">1521 ms</span>
+                <span class="method-start">3041 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
